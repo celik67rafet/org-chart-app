@@ -1,0 +1,72 @@
+{
+    "name": "Company name",
+    "attributes": {
+      "orgNumber": "3456789"
+    },
+    "children": [
+      {
+        "name": "Sub company",
+        "attributes": {
+          "orgNumber": "15426",
+          "isCompany": true,
+          "isClinic": true,
+          "replacedBy": "3333"
+        },
+        "children": [
+          {
+            "name": "Acme inc",
+            "attributes": {
+              "orgNumber": "49349",
+              "isCompany": false
+            },
+            "children": [
+              {
+                "name": "Nike",
+                "orgNumber": "457898",
+                "isCompany": false
+              }
+            ]
+          },
+          {
+            "name": "Apple",
+            "attributes": {
+              "orgNumber": "5555555",
+              "isCompany": true
+            },
+            "children": [
+              {
+                "name": "Pear",
+                "orgNumber": "88888",
+                "isCompany": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Volvo",
+        "attributes": {
+          "orgNumber": "3333",
+          "isCompany": true
+        },
+        "children": [
+          {
+            "name": "Volvo Penta",
+            "attributes": {
+              "orgNumber": "989654",
+              "isCompany": true,
+              "isClinic": true
+            }
+          },
+          {
+            "name": "Tesla",
+            "attributes": {
+              "orgNumber": "66656554",
+              "isCompany": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
